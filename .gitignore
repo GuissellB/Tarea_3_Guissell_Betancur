@@ -1,0 +1,3 @@
+data/raw/creditcard.csv
+data/processed/sub_temp.csv
+.venv/

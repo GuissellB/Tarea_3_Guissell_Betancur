@@ -1,0 +1,5 @@
+Etapa,Polars (s),Pandas (s),Speedup
+Lectura,0.1456,1.7437,11.97
+Filtrado,0.0072,0.0657,9.09
+Features,0.0105,0.0359,3.42
+TOTAL,0.1633,1.8452,11.3
