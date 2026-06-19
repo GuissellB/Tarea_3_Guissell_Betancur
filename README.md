@@ -92,7 +92,6 @@ jupyter lab
 | 4 | Benchmark Polars vs Pandas |
 | 5 | Experimento: escalabilidad (25/50/75/100%) |
 | 6 | Experimento: Lazy vs Eager Execution |
-| 7 | Análisis de resultados (10 preguntas) |
 
 ---
 
@@ -117,19 +116,4 @@ Métricas: **Accuracy, F1, AUC-ROC**, Matriz de confusión, Tiempo de entrenamie
 | `results/resultados_modelos.csv` | Métricas de los tres modelos |
 
 ---
-
-## Commits sugeridos (Git)
-
-```bash
-git commit -m "feat: estructura inicial del proyecto"
-git commit -m "feat: EDA con Polars - secciones 1.1 a 1.6"
-git commit -m "feat: pipeline de preprocesamiento Polars y Pandas"
-git commit -m "feat: entrenamiento de modelos ML"
-git commit -m "feat: benchmark y experimentos de escalabilidad"
-git commit -m "feat: experimento Lazy vs Eager"
-git commit -m "docs: análisis de resultados y README final"
-```
-
----
-
 *Tarea 3 · Ciencia de Datos · LEAD University 2026*
