@@ -10,6 +10,14 @@ Predice si una transacción con tarjeta de crédito es **fraudulenta** (`Class =
 
 ---
 
+## Informe final
+
+El análisis completo (descripción del dataset, EDA, ingeniería de características, resultados de Machine Learning, benchmark Polars vs Pandas, experimentos de escalabilidad y Lazy Execution, respuestas a las preguntas de análisis y conclusiones) está documentado en:
+
+📄 [`report/Tarea_3_Guissell_Betancur_v2.pdf`](report/Tarea_3_Guissell_Betancur_v2.pdf)
+
+---
+
 ## Dataset
 
 | Campo | Detalle |
@@ -43,11 +51,11 @@ project/
 │   │   └── creditcard.csv       ← CSV descargado de Kaggle
 │   └── processed/                ← Datos intermedios generados por el notebook
 ├── notebooks/
-│   ├── analysis.ipynb            ← Notebook principal (todo el pipeline)
-│   ├── analysis.html             ← Exportación HTML del notebook ejecutado
-│   └── analysis.pdf              ← Exportación PDF del notebook ejecutado
+│   └── analysis.ipynb            ← Notebook principal (todo el pipeline)
 ├── figures/                       ← Gráficas generadas
 ├── results/                       ← Resultados en CSV
+├── report/
+│   └── Tarea_3_Guissell_Betancur_v2.pdf   ← Informe final con análisis y conclusiones
 └── requirements.txt
 ```
 
@@ -74,9 +82,10 @@ pip install -r requirements.txt
 ## Ejecución
 
 ```bash
-# Abrir JupyterLab
-jupyter lab
-# → Abrir notebooks/analysis.ipynb y ejecutar todas las celdas
+# Abrir el proyecto en VS Code
+code .
+# → Abrir notebooks/analysis.ipynb (extensión Jupyter de VS Code)
+# → Seleccionar el kernel del entorno virtual (.venv) y ejecutar todas las celdas
 ```
 
 ---
